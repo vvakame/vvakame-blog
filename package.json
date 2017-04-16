@@ -1,0 +1,36 @@
+{
+  "name": "vvakame-blog",
+  "version": "0.0.0",
+  "private": true,
+  "description": "blog generator for vvakame",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvakame/vvaka.me.git"
+  },
+  "author": "vvakame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vvakame/vvaka.me/issues"
+  },
+  "homepage": "https://blog.vvaka.me/",
+  "scripts": {
+    "build": "hexo generate",
+    "serve": "hexo server"
+  },
+  "hexo": {
+    "version": "3.3.1"
+  },
+  "dependencies": {
+    "hexo": "^3.2.0",
+    "hexo-footnotes": "^1.0.1",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-feed": "^1.2.0",
+    "hexo-generator-index": "^0.2.0",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-ejs": "^0.2.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-server": "^0.2.0"
+  }
+}

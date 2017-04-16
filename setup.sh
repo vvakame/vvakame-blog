@@ -8,3 +8,6 @@ cd h2o-${H2O_VERSION}
 cmake -DWITH_BUNDLED_SSL=on .
 make
 sudo make install
+
+git submodule init && git submodule update
+yarn install

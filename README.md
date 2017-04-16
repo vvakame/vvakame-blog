@@ -12,3 +12,9 @@ sudo systemctl enable h2o
 sudo systemctl restart h2o
 systemctl status h2o
 ```
+
+## 新しいブログポストを作る
+
+```
+$ ./node_modules/.bin/hexo new "記事名"
+```
