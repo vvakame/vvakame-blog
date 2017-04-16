@@ -3,6 +3,7 @@
 sudo /usr/local/bin/h2o -c $HOME/vvaka.me/h2o.conf
 
 sudo letsencrypt certonly --standalone --email vvakame@gmail.com --domain blog.vvaka.me
+curl -f "http://metadata.google.internal/computeMetadata/v1/project/attributes/letsencrypt-vvaka_me" -H "Metadata-Flavor: Google" | base64 -d > letsencrypt.zip
 
 ```
 mkdir -p $HOME/pid $HOME/logs
