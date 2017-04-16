@@ -1,4 +1,8 @@
-# SOFT SKILLSを読み終わった
+---
+title: SOFT SKILLSを読み終わった
+date: 2017-04-16 16:13:38
+tags: 読書感想文
+---
 
 最初にこの本のことを知ったのは[higeponさんのブログ](http://d.hatena.ne.jp/higepon/20150921/1442843666)だったと思う。
 
