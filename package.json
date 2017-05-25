@@ -15,7 +15,8 @@
   "homepage": "https://blog.vvaka.me/",
   "scripts": {
     "build": "hexo generate",
-    "serve": "hexo server"
+    "serve": "hexo server",
+    "serve:draft": "hexo server --draft"
   },
   "hexo": {
     "version": "3.3.1"
