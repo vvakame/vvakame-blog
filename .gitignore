@@ -1,11 +1,5 @@
 .DS_Store
 
-h2o.zip
-h2o-*/
-
-letsencrypt.tar.gz
-letsencrypt.zip
-
 docroot/
 db.json
 
