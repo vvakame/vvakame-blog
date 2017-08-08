@@ -1,9 +1,9 @@
 lambda do |env|
+    # p env
+
     if env["HTTP_HOST"] == "localhost:8080"
         return [399, {}, []]
     end
-
-    # p env
 
     # https://github.com/kubernetes/ingress/blob/master/controllers/gce/README.md#redirecting-http-to-https
     if env["HTTP_X_FORWARDED_PROTO"] == "http"
