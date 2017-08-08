@@ -19,6 +19,13 @@ systemctl status h2o
 $ ./node_modules/.bin/hexo new "記事名"
 ```
 
+## ローカルでh2oの動作を確かめる
+
+```
+$ brew install mruby h2o
+$ h2o -c h2o.conf
+```
+
 ## 環境立ち上げる
 
 ```
