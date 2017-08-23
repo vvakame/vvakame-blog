@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  build:
+    working_directory: /app
+    docker:
+      - image: vvakame/circleci-gaego
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - yarn-cache-{{ checksum "yarn.lock" }}
+      - run: npm install -g yarn
+      - run: ./setup.sh
+      # caching
+      - save_cache:
+          # Circle CI 2.0のキャッシュは一度生成すると破棄が難しく、一度キャッシュが作られると次回以降のsave_cacheが無視される
+          key: yarn-cache-{{ checksum "yarn.lock" }}
+          paths:
+            # OS毎に場所が違う yarn cache dir で調べる
+            - /usr/local/share/.cache/yarn/v1
+      - run: npm run build
+      - run: ./docker-build.sh
+      - deploy:
+          name: Deploy to GKE
+          command: |
+            case "${CIRCLE_BRANCH}" in
+              "master" ) ./deploy.sh ;;
+            esac
+          working_directory: ./api
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
