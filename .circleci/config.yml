@@ -28,6 +28,11 @@ jobs:
             # OS毎に場所が違う yarn cache dir で調べる
             - /usr/local/share/.cache/yarn/v1
       - run: npm run build
+      - run:
+          name: Setup GCP authorization
+          command: |
+            echo $GOOGLE_OAUTH_JSON | base64 --decode > gcp-authorization.json
+            gcloud auth activate-service-account --key-file gcp-authorization.json
       - run: ./docker-build.sh
       - deploy:
           name: Deploy to GKE
