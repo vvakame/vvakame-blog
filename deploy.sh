@@ -16,6 +16,8 @@ mkdir -p $GEN_DIR
 cp $TMPL_DIR/blog-hpa-rs.yml $TMPL_DIR/blog-service.yml $TMPL_DIR/ingress.yml $GEN_DIR
 cat $TMPL_DIR/blog-deployment.yml | sed "s#\${DOCKER_IMAGE}#${DOCKER_IMAGE}#" > $GEN_DIR/blog-deployment.yml
 
+gcloud components install kubectl
+gcloud config set project $PROJECT_ID
 gcloud --quiet container clusters get-credentials $CLUSTER_NAME
 
 kubectl apply -f $GEN_DIR
