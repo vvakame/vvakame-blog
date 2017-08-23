@@ -40,7 +40,6 @@ jobs:
             case "${CIRCLE_BRANCH}" in
               "master" ) ./deploy.sh ;;
             esac
-          working_directory: ./api
 
 workflows:
   version: 2
