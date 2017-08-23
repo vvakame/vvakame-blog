@@ -7,6 +7,7 @@ IMAGE_NAME=vvakame-blog
 IMAGE_TAG=$(git rev-parse HEAD | cut -c 1-8)
 DOCKER_IMAGE=gcr.io/${PROJECT_ID}/${IMAGE_NAME}:${IMAGE_TAG}
 CLUSTER_NAME=vvakame-blog
+ZONE=asia-northeast1-b
 
 TMPL_DIR=k8s/template
 GEN_DIR=k8s/generated
@@ -16,8 +17,9 @@ mkdir -p $GEN_DIR
 cp $TMPL_DIR/blog-hpa-rs.yml $TMPL_DIR/blog-service.yml $TMPL_DIR/ingress.yml $GEN_DIR
 cat $TMPL_DIR/blog-deployment.yml | sed "s#\${DOCKER_IMAGE}#${DOCKER_IMAGE}#" > $GEN_DIR/blog-deployment.yml
 
-gcloud components install kubectl
+gcloud --quiet components install kubectl
 gcloud config set project $PROJECT_ID
+gcloud config set compute/zone $ZONE
 gcloud --quiet container clusters get-credentials $CLUSTER_NAME
 
 kubectl apply -f $GEN_DIR
