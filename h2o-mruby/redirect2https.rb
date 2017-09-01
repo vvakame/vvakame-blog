@@ -1,18 +1,22 @@
-lambda do |env|
-    # p env
-
+def is_require_redirect(env)
     if env["HTTP_HOST"] == "localhost:8080"
-        return [399, {}, []]
+        false
+    elsif env["HTTP_X_FORWARDED_PROTO"] == "http"
+        true
+    else
+        false
     end
+end
 
+def get_location_url(env)
     # https://github.com/kubernetes/ingress/blob/master/controllers/gce/README.md#redirecting-http-to-https
-    if env["HTTP_X_FORWARDED_PROTO"] == "http"
-        location_url = "https://#{env['HTTP_HOST']}#{env['PATH_INFO']}"
-        if env["QUERY_STRING"] != ""
-            location_url += "?#{env['QUERY_STRING']}"
-        end
-        return [301, {"Location" => location_url}, []]
+    if !is_require_redirect(env)
+        return
     end
 
-    return [399, {}, []]
+    location_url = "https://#{env['HTTP_HOST']}#{env['PATH_INFO']}"
+    if env["QUERY_STRING"] != ""
+        location_url += "?#{env['QUERY_STRING']}"
+    end
+    location_url
 end
