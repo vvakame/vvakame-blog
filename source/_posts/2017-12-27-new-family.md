@@ -1,6 +1,6 @@
 ---
 title: 猫が我が家に来た話
-date: 2017-12-25 19:31:11
+date: 2017-12-27 15:31:11
 tags: ゆかりさん
 ---
 
@@ -31,13 +31,10 @@ Twitterだと「ふわふわちゃん」とツイートすることが多いで�
 避妊手術から帰ってきたあたりから再度ベッドに乗るにゃんと化したふわふわちゃん。
 夜寝てる間に蹴っ飛ばさないように、ベッドに斜めに寝るという対処法を編み出しました…。
 
-<img src="/images/2017-12-25-new-family/safety.png" title="足元に安全地帯を作り出す">
+<img src="/images/2017-12-27-new-family/safety.png" title="足元に安全地帯を作り出す">
 
-なお、昨日今日のトレンドは脇の下あたりにカラー着けたまま突入してきて肋骨をゴリゴリしてくることです。
-タオルケットめくって入れてあげるとぴったりくっついてﾋﾟｽﾋﾟｽ寝始めるので可愛い…ワイが寝たら押しつぶしそう…。
-
-なお、まだあまり慣れていないので包帯とカラーを外してキャットタワーが利用可能になったらまた「人間こわっ！高いとこいよう」モードに戻るものと予想されます…。
-いつでも温まりにきてええんやで…！
+カラーと包帯をつけてた間は動きが不自由なのでベッドの上にいることが多かったんですが、元気になったらまたキャットタワーの上にお帰りあそばされました。
+な、撫でさせてくれぇ……！！
 
 あと過去のツイートをまとめてお茶を濁す！
 
@@ -126,6 +123,15 @@ Twitterだと「ふわふわちゃん」とツイートすることが多いで�
 注射を打ってもらって飲み薬をもらう。
 猫 飲み薬 で検索してみんな絶望しよう！（ちゅーるにお薬載せたら簡単に全部ペロンと食べて杞憂に終わった）
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お腹が痛いふわふわちゃん <a href="https://t.co/V15n0LpeXI">pic.twitter.com/V15n0LpeXI</a></p>&mdash; わかめ@TypeScript味 (@vvakame) <a href="https://twitter.com/vvakame/status/945163531929841665?ref_src=twsrc%5Etfw">2017年12月25日</a></blockquote>
+
+### 12/27
+
+お薬をまだ飲ませているんだけど、ちゅーるの部分だけ舐めて錠剤をペッ！てする技術を身に着けはじめました。つらい。
+ちゅーるでコーティングしていいタイミングで舌の奥に送り込むテクが必要になってきました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ふわふわちゃんは制限が開放されたことを悟り高いところに行ってしまいました(全然撫でられない <a href="https://t.co/WcHse0kSnb">pic.twitter.com/WcHse0kSnb</a></p>&mdash; わかめ@TypeScript味 (@vvakame) <a href="https://twitter.com/vvakame/status/945885910691749888?ref_src=twsrc%5Etfw">2017年12月27日</a></blockquote>
+
 ## 備忘録
 
 わかめさんは大変な心配性かつ保守的人間であるため、にゃんこを飼う前後の心労が激しかったです。
@@ -206,6 +212,7 @@ Twitterだと「ふわふわちゃん」とツイートすることが多いで�
 あまり使わせてくれないけど…。気持ちよくはあんまりなさそうな気がする。
 <a href="https://www.amazon.co.jp/gp/product/B004E4KBYS/ref=as_li_ss_il?ie=UTF8&psc=1&linkCode=li1&tag=vvakame-22&linkId=f16b32228c049b221c1b50a9a285dd31" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004E4KBYS&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=vvakame-22" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=vvakame-22&l=li1&o=9&a=B004E4KBYS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+最後に[ほしいも](http://amzn.asia/iaYkMIo)貼っておきますね！（ただし贈ってもらっても恩を3時間で忘れるタイプの雑魚）
 
 ## きっかけ
 
