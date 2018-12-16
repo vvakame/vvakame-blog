@@ -5,4 +5,4 @@
 [[redirects]]
   from =   "https://vvakame-blog.netlify.com/*"
   to =     "https://blog.vvaka.me/:splat"
-  status = 301
+  status = "301!"
