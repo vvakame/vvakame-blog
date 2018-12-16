@@ -5,19 +5,18 @@
   "description": "blog generator for vvakame",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vvakame/vvaka.me.git"
+    "url": "git+https://github.com/vvakame/vvakame-blog.git"
   },
   "author": "vvakame",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vvakame/vvaka.me/issues"
+    "url": "https://github.com/vvakame/vvakame-blog/issues"
   },
   "homepage": "https://blog.vvaka.me/",
   "scripts": {
     "build": "hexo generate",
     "serve": "hexo server",
     "serve:draft": "hexo server --draft",
-    "netlify": "npm run build && cp _redirects docroot"
+    "netlify": "npm run build && cp _redirects public"
   },
   "hexo": {
     "version": "3.8.0"

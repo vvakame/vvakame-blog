@@ -1,6 +1,6 @@
 .DS_Store
 
-docroot/
+public/
 db.json
 
 node_modules/
