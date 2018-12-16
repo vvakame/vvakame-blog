@@ -15,8 +15,7 @@
   "scripts": {
     "build": "hexo generate",
     "serve": "hexo server",
-    "serve:draft": "hexo server --draft",
-    "netlify": "npm run build && cp _redirects public"
+    "serve:draft": "hexo server --draft"
   },
   "hexo": {
     "version": "3.8.0"

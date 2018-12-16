@@ -5,6 +5,6 @@ db.json
 
 node_modules/
 
-k8s/generated/
+.netlify/state.json
 
 gcp-authorization.json
