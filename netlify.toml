@@ -3,6 +3,6 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "https://blog.vvaka.me/:splat"
-  to = "https://vvakame-blog.netlify.com/*"
+  from =   "https://vvakame-blog.netlify.com/*"
+  to =     "https://blog.vvaka.me/:splat"
   status = 301
