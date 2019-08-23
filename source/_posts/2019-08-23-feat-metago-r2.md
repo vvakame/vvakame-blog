@@ -1,7 +1,7 @@
 ---
 title: metagoを作った話
 date: "2019-08-23 16:48:19"
-tags: []
+tags: [Go]
 ---
 
 Source: [metagoを作った話](https://github.com/vvakame/til/pull/40)
