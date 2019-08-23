@@ -104,7 +104,7 @@ func main() {
 ```
 
 [reflect](https://golang.org/pkg/reflect/)パッケージに少し似ています。
-どういったことができるかというのは[testbed](https://github.com/vvakame/til/tree/e1a4d0d4bee389d05de2a2a91a2223eccdc00f6c/go/metago/internal/testbed)ディレクトリを見てみてください。
+どういったことができるかというのは[testbed](https://github.com/vvakame/metago/tree/master/internal/testbed)ディレクトリを見てみてください。
 
 主なfeatureとして…
 
