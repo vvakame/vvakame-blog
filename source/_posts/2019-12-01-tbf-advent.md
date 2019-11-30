@@ -10,9 +10,9 @@ tags: [技術書典]
 
 1日目ということで、熱っぽくやっていきたいと思います。
 
-僕が紹介するのは技術書典7で[Nanoseconds Hunter](https://techbookfest.org/event/tbf07/circle/5720313589399552)さんが頒布した[Programmer's Pocket Reference](https://booth.pm/ja/items/1583656)を紹介します。
+僕は技術書典7で[Nanoseconds Hunter](https://techbookfest.org/event/tbf07/circle/5720313589399552)さんが頒布した[Programmer's Pocket Reference](https://booth.pm/ja/items/1583656)を紹介します！
 
-先に書いておきますが、現時点では上記リンクからboothさん経由で電子版を購入することができます。
+先に書いておきますが、現時点では上記リンクからBOOTHさん経由で電子版を購入することができます。
 よかったですね。
 
 時は技術書典7からおおよそ5日後、社で毎週金曜日に行われている社内勉強会で、僕が購入し、電子データがあった戦利品すべてに短評を述べ、みんなの購買意欲を煽る儀式をやりました。
@@ -24,7 +24,7 @@ tags: [技術書典]
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">なおかつ全ページフルカラーのデータでこれ1ページあたりの編集の手間どんだけかかってんの？みたいなのが200ページ超続いてるんですよ。やばい。到底真似できるものではない。みんなも買って目を通してみてほしい。売ってないんだけど。</p>&mdash; わかめ@毎日猫がいる (@vvakame) <a href="https://twitter.com/vvakame/status/1177496182458732547?ref_src=twsrc%5Etfw">September 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-繰り返しますが、この本、今は[booth](https://booth.pm/ja/items/1583656)で入手できます！！
+繰り返しますが、この本、今は[BOOTH](https://booth.pm/ja/items/1583656)で入手できます！！
 
 ---
 
