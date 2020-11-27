@@ -17,6 +17,9 @@
     "serve": "hexo server",
     "serve:draft": "hexo server --draft"
   },
+  "engines": {
+    "node": "~14.0.0"
+  },
   "hexo": {
     "version": "5.2.0"
   },
