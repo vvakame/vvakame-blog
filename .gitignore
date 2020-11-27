@@ -5,6 +5,7 @@ db.json
 
 node_modules/
 
-.netlify/state.json
+# Local Netlify folder
+.netlify
 
 gcp-authorization.json
