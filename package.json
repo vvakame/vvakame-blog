@@ -21,7 +21,7 @@
     "node": "~14.0.0"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.2.0"
   },
   "dependencies": {
     "hexo": "^6.2.0",
