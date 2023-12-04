@@ -13,7 +13,7 @@
   },
   "homepage": "https://blog.vvaka.me/",
   "scripts": {
-    "build": "hexo generate",
+    "build": "TZ=Asia/Tokyo hexo generate",
     "serve": "hexo server",
     "serve:draft": "hexo server --draft"
   },
